@@ -4,7 +4,7 @@ A tool created to analyse the diffusion of a domain in the most used and common 
 
 ## Usage
 
-	$ ./dnsspread.sh [-h -s] domain [domain]
+	$ ./dnsspread.sh [-s] domain [domain]
 **Flags**
 
 	-s simple mode, print results in one line per domain
