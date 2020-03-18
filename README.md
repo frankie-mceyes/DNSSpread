@@ -1,6 +1,6 @@
 
 # DNSSpread
-A tool created to analyse the diffusion of a domain in the most used and common DNS servers.
+A tool created to analyse the diffusion of a domain record in the most used and common DNS servers.
 Useful to discover if a DNS record has been obscured by authorities (eg. ThePirateBay)
 
 ## TODO
