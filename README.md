@@ -14,7 +14,9 @@ Useful to discover if a DNS record has been obscured by authorities (eg. ThePira
 
 ## Usage
 
-	$ ./dnsspread.sh [-s] domain [domain]
+	$ ./dnsspread.sh [-s] domain
+You can pass as many domains as you wish.
+
 **Flags**
 
 	-s simple mode, print results in one line per domain
