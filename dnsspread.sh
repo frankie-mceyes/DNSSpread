@@ -68,7 +68,7 @@ else
 			result=$(timeout 5 host -t a ${DOMAIN[$i]} $ADDRESS)
 			if [[ $result == *"has address"* ]]
 			then
-				location="$(host -t a ${DOMAIN[$i]} $ADDRESS | sed "/$ADDRESS/d" | grep -oE "([0-9]{1,3}\.){3}[0-9]{1,3}")"
+				location="$(host -t a ${DOMAIN[$i]} $ADDRESS | sed "/$ADDRESS/d" | grep -oE "([0-9]{1,3}\.){3}[0-9]{1,3}" | sed ':a;N;$!ba;s/\n/, /g')"
 				echo -e "\e[32mFound\e[0m ${DOMAIN[$i]} at $location"
 			elif [[ $result == *"not found"* ]] || [[ $result == *"has no A record"* ]]
 			then
