@@ -25,6 +25,8 @@ You can pass as many domains as you wish.
 Extended mode:
 ```bash
 $ ./dnsspread.sh google.com
+```
+```plaintext
  ____  _____ _____ _____                   _       _
 |    \|   | |   __|   __|___ ___ ___ ___ _| |  ___| |_
 |  |  | | | |__   |__   | . |  _| -_| .'| . |_|_ -|   |
@@ -57,6 +59,8 @@ Querying Yandex@77.88.8.8: Found google.com at 173.194.221.138, 173.194.221.102,
 Simple mode:
 ```bash
 $ ./dnsspread.sh -s github.com
+```
+```plaintext
  ____  _____ _____ _____                   _       _
 |    \|   | |   __|   __|___ ___ ___ ___ _| |  ___| |_
 |  |  | | | |__   |__   | . |  _| -_| .'| . |_|_ -|   |
